@@ -35,7 +35,7 @@ def add_df_eg(df, symbol):
 
 
 
-login = metatrader(89898149, '13781128Pp_', 'LiteFinance-MT5-Demo')
+login = metatrader(89898149, '*********', 'LiteFinance-MT5-Demo')
 login.start_mt5()
 symbol = "FDAX_l"
 df = datamine('1d', symbol, "online", number_data=2000).df()
