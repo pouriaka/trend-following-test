@@ -4,7 +4,7 @@ from Backtest import *
 
 
 
-login = metatrader(89898149, '13781128Pp_', 'LiteFinance-MT5-Demo')
+login = metatrader(89898149, '*********', 'LiteFinance-MT5-Demo')
 login.start_mt5()
 
 symbol_list = []
